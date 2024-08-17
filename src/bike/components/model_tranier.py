@@ -40,7 +40,8 @@ class ModelTrainer:
         rmse = np.sqrt(mean_squared_error(actual, pred))
         mae = mean_absolute_error(actual, pred)
         r2 = r2_score(actual, pred)
-        return rmse, mae, r2
+        sae = np.sum(np.abs(actual - pred))
+        return rmse, mae, r2, sae
 
     def initiate_model_trainer(self,train_array,test_array):
         try:
@@ -141,6 +142,7 @@ class ModelTrainer:
                 mlflow.log_metric("rmse", rmse)
                 mlflow.log_metric("r2", r2)
                 mlflow.log_metric("mae", mae)
+                mlflow.log_metric("sae", sae)
 
 
                 # Model registry does not work with file store

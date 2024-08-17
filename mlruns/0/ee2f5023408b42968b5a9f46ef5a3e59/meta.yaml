@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Seoul%20Bike%20Share%20Demand%20Prediction/mlruns/0/ee2f5023408b42968b5a9f46ef5a3e59/artifacts
+end_time: 1723902647980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee2f5023408b42968b5a9f46ef5a3e59
+run_name: fearless-moose-662
+run_uuid: ee2f5023408b42968b5a9f46ef5a3e59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723902645817
+status: 3
+tags: []
+user_id: alokk
