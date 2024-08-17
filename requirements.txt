@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+chardet
+catboost
+xgboost
+dill
+Flask
+mlflow==2.2.2
+-e .
